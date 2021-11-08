@@ -1,6 +1,11 @@
 # go_table_scheme
 SQL语句到结构体的转换工具
 
+# 使用方法
+在本项目根目录下或 go install 后执行下面命令
+go_table_scheme -t 表名 -db '用户名:密码@tcp(ip:3306)/数据库名'
+
+# 示例
 数据库信息
 ```mysql
 CREATE TABLE `trade` (
